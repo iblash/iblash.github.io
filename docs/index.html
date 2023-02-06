@@ -1,55 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Milton Lash's links</title>
 
-    <style>
-      body {
-        padding-top: 40px;
-        padding-bottom: 40px;
-        background-color: #004643;
-        
-      }
-      .banner-image {
-        width: 128px;
-        height: 128px;
-        object-fit: cover;
-        border-radius: 128px;
-      }
+<head>
+  <meta charset="UTF-8">
+  <title>Milton Lash's links</title>
 
-      .thumbnail {
-        width: 48px;
-        height: 48px;
-        border-radius: 48px;
-        object-fit: cover;
-      }
-      .name {
-        color: #fffffe;
-      }
+  <style>
+    
+    body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+      background-color: #b62eca;
+      display: flex;
+      justify-content: center;
 
-      .social-icons a {
-        color: #fffffe;
-        text-decoration: n none;
-      }
-      .social-icons {
-        color: #fffffe;
-        text-decoration: none;
-      }
+    }
 
-      .link {
-        background-color: #f9bc60;
-      }
+    .banner-image {
+      width: 128px;
+      height: 128px;
+      object-fit: cover;
+      border-radius: 128px;
+    }
 
-      .link a {
-        color: #001e1d;
-        text-decoration: none;
-        
-      }
-    </style>
-  
-  </head>
-  <body>
+    .thumbnail {
+      width: 48px;
+      height: 48px;
+      border-radius: 48px;
+      object-fit: cover;
+    }
+
+    .name {
+      color: #fffffe;
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons a {
+      color: #fffffe;
+      text-decoration: none;
+    }
+
+    .link {
+      background-color: #f9bc60;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+    }
+
+    .link a {
+      color: #001e1d;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="items">
 
     <div class="banner">
 
@@ -57,10 +87,10 @@
 
     </div>
 
-    <div class="name"></div>
-        Milton Lash  
+    <div class="name"> 
+      Milton Lash
     </div>
-
+  
     <div class="social-icons">
       <a href="https://github.com/iblash" target="_blank">
         GitHub
@@ -71,37 +101,43 @@
       </a>
 
       <a href="https://www.instagram.com/iblashtech/" target="_blank">
-        Instagram 
+        Instagram
       </a>
     </div>
 
     <div class="link">
-      <img class="thumbnail"
-        src="thinking.jpeg" alt="Pondering the world">
-      
+      <img class="thumbnail" src="thinking.jpeg" alt="Pondering the world">
 
-        <a target="_blank" href="https://medium.com/faithtech/merciful-software-engineering-a956349bae65">Merciful Software Engineering - Alison Blomenberg</a>
+
+      <a target="_blank" href="https://medium.com/faithtech/merciful-software-engineering-a956349bae65">Merciful Software
+      Engineering - Alison Blomenberg</a>
 
     </div>
 
     <div class="link">
-      <img class="thumbnail" 
-        src="/thumbnails/chicago.jpeg" alt="Chicago">
-      
+      <img class="thumbnail" src="/thumbnails/chicago.jpeg" alt="Chicago">
+
       <a target="_blank"
-      href="https://www.builtinchicago.org/2022/12/27/chicago-future-5-startups-q4-2022?i=e2ea3b00-8db2-4ed4-8a1e-3243fc5c0b50&utm_source=transactional&utm_medium=email&utm_campaign=Built-In-Email">The Future 5 of Chicago Tech, Q4 2022 - Abel Rodriguez</a>
+        href="https://www.builtinchicago.org/2022/12/27/chicago-future-5-startups-q4-2022?i=e2ea3b00-8db2-4ed4-8a1e-3243fc5c0b50&utm_source=transactional&utm_medium=email&utm_campaign=Built-In-Email">The
+            Future 5 of Chicago Tech, Q4 2022 - Abel Rodriguez</a>
     </div>
 
     <div class="link">
-      <img class="thumbnail" 
-        src="/thumbnails/checking.jpg" alt="Checking phone">
-      
-      <a target="_blank"
-      href="https://medium.com/faithtech/swipe-right-144274c4450f">Swipe Right - Ruth Mullen</a>
+      <img class="thumbnail" src="/thumbnails/checking.jpg" alt="Checking phone">
+
+      <a target="_blank" href="https://medium.com/faithtech/swipe-right-144274c4450f">Swipe Right - Ruth Mullen</a>
 
     </div>
 
-    Howdy!
-    
-  </body>
+    <div class="link">
+      <img class="thumbnail" src="/thumbnails/milton.jpeg" alt="Milton Speaking">
+
+
+      <a target="_blank" href="https://iblashtech.com">Milton Lash Developer Portfolio </a>
+
+    </div>
+
+  </div>
+</body>
+
 </html>
